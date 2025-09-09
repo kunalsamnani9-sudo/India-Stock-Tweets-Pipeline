@@ -16,6 +16,15 @@ This repository contains:
 git clone <your-repo-url>
 cd india-stock-twitter-pipeline
 
+2. create & activate venv (Windows cmd):
+C:\> python -m venv .venv
+C:\> .\.venv\Scripts\activate
+
+3. install dependencies:
+pip install -r requirements.txt
+
+   
+
 india-stock-twitter-pipeline/
 ├─ .github/
 │  └─ workflows/
@@ -31,8 +40,7 @@ india-stock-twitter-pipeline/
 │  └─ pw_collect_india_stocks_with_state_final.py
 │  └─ (other ingestion scripts)
 ├─ processor/
-│  └─ process_all_now.py
-│  └─ worker.py
+│  └─ processor.py
 ├─ tools/
 │  └─ merge_parquet_to_json.py
 │  └─ parquet_to_json.py

@@ -38,7 +38,6 @@ india-stock-twitter-pipeline/
 │  └─ (features_*.npz)      # sample features
 ├─ ingestion/
 │  └─ pw_collect_india_stocks_with_state_final.py
-│  └─ (other ingestion scripts)
 ├─ processor/
 │  └─ processor.py
 ├─ tools/
